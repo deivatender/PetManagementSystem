@@ -1,0 +1,33 @@
+# --- Python / backend ---
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment / secrets (never commit real config)
+.env
+.env.*
+!.env.example
+
+# --- Node / frontend ---
+node_modules/
+dist/
+dist-ssr/
+coverage/
+*.local
+
+# --- Multica / agent runtime artifacts ---
+.multica/
+.agent_context/
+.claude/
+
+# --- Editor / OS ---
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
